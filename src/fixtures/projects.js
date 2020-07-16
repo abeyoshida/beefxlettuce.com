@@ -3,34 +3,34 @@ const initProjects = [
     {
       id: 1,
       sector: 'Financial',
-      name: 'Bearstearns.com',
-      img: 'site_bearstearns_630w.jpg',
-      tools: 'html, dhtml, css, javascript, Mootools Library, JSP',
-      desc: 'Bearstearns.com was the corporate website of the former Bear Stearns, Inc., a global investment bank and securities trading and brokerage firm, until its collapse and sale to JPMorgan Chase in 2008. My responsibilities included creation of CSS templates, Javascript templates for the site navigation, administration of Broadvision app server.'
-    },
-    {
-      id: 2,
-      sector: 'Financial',
-      name: 'BearCorpCash.com',
-      img: 'site_cmg_600w.jpg',
-      tools: 'UX, HTML, DHTML, XML, CSS, Javascript',
-      desc: 'The Cash Management Group migrated to Bear Stearns from Oppenheimer in 2003 and quickly established itself as one of America\'s top financial advisors with over $15 billion in assets. To bring their business online I was engaged to build the Money Market Portal as an online vehicle to allow   their clients to managing overnight liquidity in existing portfolios.  Portal functionality included live pricing of approved money market funds, the ability to buy and sell from a pre-screened list of AAA money market funds, building filtered lists, trade status blotter, implementing hierarchical trading rules based on authenticated levels. My responsibilities included the portal site design, CSS, Javascript code base. The portal is a private client-only site and not open to the public.'
-    },
-    {
-      id: 3,
-      sector: 'Financial',
       name: 'BestMarkets Home',
       img: 'site_bestmarkets_600w.jpg',
       tools: 'UX, site design, client-side architecture, HTML, DHTML, CSS, Javascript, XML, Ajax',
       desc: 'In 2007 Bear Stearns introduced a new structured equity product to a European and Asian market.  A large  part of the strategy was to build a strategic online platform that would allow clients to transact certificates, retail notes, medium-term notes, and CDs from indicative valuations posted live on the website.  Through the site new structured products were being marketed.  Additional site functionality included localization for specific markets,  the ability to make requests for quotes on items in the secondary market along with the option for clients to structure new securities that they would be interested in buying. My responsibilities included requirement gathering from the London equity desk, creation of a branded site design in Fireworks, CSS,  Javascript using Mootools, client side architecture to accomodate Ajax calls to structured data sources as well as localized html chunks and images for each regional area. When JPMorgan took control of Bear Stearns this business was shut down and the website is no longer available.'
     },
     {
-      id: 4,
+      id: 2,
       sector: 'Financial',
       name: 'BestMarkets Trading Platform',
       img: 'site_bestmarkets_certificates_600w.jpg',
       tools: 'UX, site design, client-side architecture, HTML, DHTML, CSS, Javascript, XML, Ajax',
       desc: 'BestMarkets.com featured live prices of newly structured equity certificates that were leveraged against different underlyers such as indices, commodities, currencies and bonds.  There was a blotter-like grid display that opened to product details along with charting that were based on prices from various time frames.  The request for quote app was being tested in a development environment when Bear Stearns crashed. The indicative pricing pages relied heavily on Ajax for data consumption and display as well as parsing data into valid xml for Fusion Charts\' Flash templates. When JPMorgan took control of Bear Stearns this business was shut down and the website is no longer available.'
+    },
+    {
+      id: 3,
+      sector: 'Financial',
+      name: 'Bearstearns.com',
+      img: 'site_bearstearns_630w.jpg',
+      tools: 'html, dhtml, css, javascript, Mootools Library, JSP',
+      desc: 'Bearstearns.com was the corporate website of the former Bear Stearns, Inc., a global investment bank and securities trading and brokerage firm, until its collapse and sale to JPMorgan Chase in 2008. My responsibilities included creation of CSS templates, Javascript templates for the site navigation, administration of Broadvision app server.'
+    },
+    {
+      id: 4,
+      sector: 'Financial',
+      name: 'BearCorpCash.com',
+      img: 'site_cmg_600w.jpg',
+      tools: 'UX, HTML, DHTML, XML, CSS, Javascript',
+      desc: 'The Cash Management Group migrated to Bear Stearns from Oppenheimer in 2003 and quickly established itself as one of America\'s top financial advisors with over $15 billion in assets. To bring their business online I was engaged to build the Money Market Portal as an online vehicle to allow   their clients to managing overnight liquidity in existing portfolios.  Portal functionality included live pricing of approved money market funds, the ability to buy and sell from a pre-screened list of AAA money market funds, building filtered lists, trade status blotter, implementing hierarchical trading rules based on authenticated levels. My responsibilities included the portal site design, CSS, Javascript code base. The portal is a private client-only site and not open to the public.'
     },
     {
       id: 5,
