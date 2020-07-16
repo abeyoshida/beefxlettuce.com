@@ -64,14 +64,14 @@ class Navbar extends Component {
                         </MDBNavbarNav>
                         <MDBNavbarNav right>
                             <MDBNavItem>
-                            <MDBNavLink className="waves-effect waves-light" to="#!">
-                                <MDBIcon fab size="lg" icon="github" />
-                            </MDBNavLink>
+                                <MDBLink to={{ pathname: "https://github.com/abeyoshida/beefxlettuce.com" }} target="_blank" className="waves-effect waves-light">
+                                    <MDBIcon fab size="lg" icon="github" />
+                                </MDBLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                            <MDBNavLink className="waves-effect waves-light" to="#!">
-                                <MDBIcon fab size="lg" icon="linkedin" />
-                            </MDBNavLink>
+                                <MDBLink to={{ pathname: "https://www.linkedin.com/in/abeyoshida/" }} target="_blank" className="waves-effect waves-light">
+                                    <MDBIcon fab size="lg" icon="linkedin" />
+                                </MDBLink>
                             </MDBNavItem>
                         </MDBNavbarNav>
                         </MDBCollapse>

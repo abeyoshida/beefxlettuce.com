@@ -3,7 +3,7 @@ Built with:
 - React.js (initiated with create-react-app)
 - Material Design for Bootstrap
 
-## create-react-apps defaults you can use to start
+## create-react-app defaults you can use to start
 - clone react repo into a new project folder:  run `create-react-app [project folder name]`
 - cd to the directory with the [project folder name]
 - run `yarn install` (or `npm install` if you don't use yarn)
