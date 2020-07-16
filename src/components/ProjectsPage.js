@@ -4,7 +4,7 @@ import Project from './ProjectPage';
 import initProjects from '../fixtures/projects';
 
 const ProjectsPage = () => {
-  const [projects, setProjects] = useState(initProjects);
+  const [projects] = useState(initProjects);
   
   return (
     <>

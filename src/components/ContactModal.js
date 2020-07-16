@@ -11,7 +11,7 @@ const ContactModal = (props) => {
                             hover
                             overlay='white-slight'
                             className='card-img-top'
-                            src='img/IMG_0195.JPEG'
+                            src='img/IMG_0219.JPEG'
                             alt='Card cap'
                         />
                     </MDBView>
@@ -21,7 +21,7 @@ const ContactModal = (props) => {
                         <strong>Abram Yoshida</strong>
                         </MDBCardTitle>
 
-                        <p className='font-weight-bold blue-text'>Front End Web Developer</p>
+                        <p className='font-weight-bold blue-text'>Senior Front End Web Developer</p>
 
                         <MDBCardText>
                         abeyoshida@gmail.com{' '}

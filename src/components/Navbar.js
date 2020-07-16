@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBCollapse, MDBContainer, MDBIcon, MDBLink,
-         MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, 
+         MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, 
          MDBTypography } from "mdbreact";
 import ContactModal from './ContactModal';
 import ResumeModal from './ResumeModal';
@@ -23,11 +23,9 @@ class Navbar extends Component {
 
     toggle = nr => () => {
         let modalNumber = 'modal' + nr
-        console.log('1 this.state: ', this.state);
         this.setState({
           [modalNumber]: !this.state[modalNumber]
         });
-        console.log('2 this.state: ', this.state);
       }
     showPortfolio = () => {
         this.toggle(2);
