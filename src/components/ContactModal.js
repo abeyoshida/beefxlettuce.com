@@ -17,14 +17,18 @@ const ContactModal = (props) => {
                     </MDBView>
 
                     <MDBCardBody cascade className='text-center'>
-                        <MDBCardTitle className='card-title'>
-                        <strong>Abram Yoshida</strong>
+                        <MDBCardTitle className='card-title' style={{marginBottom: '6px'}}>
+                            <strong>Abram Yoshida</strong>
                         </MDBCardTitle>
 
-                        <p className='font-weight-bold blue-text'>Senior Front End Web Developer</p>
+                        <p className='font-weight-bold blue-text' style={{marginBottom: '0'}}>Senior Front End Web Developer</p>
 
                         <MDBCardText>
                         abeyoshida@gmail.com{' '}
+                        </MDBCardText>
+                        <MDBCardText style={{textAlign: 'left'}}>
+                            Senior Front-End Engineer with a rare combination of artistic and technical expertise with an
+                            expert grasp of client side browser technologies.
                         </MDBCardText>
 
                         <MDBCol md='12' className='d-flex justify-content-center'>
