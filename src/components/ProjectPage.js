@@ -1,35 +1,52 @@
 import React from 'react';
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCarouselItem, MDBView, MDBIcon } from 'mdbreact';
+import ShowMoreText from 'react-show-more-text';
 
 const Project = ({id, sector, name, img, tools, desc}) => {
+    
+    
+    const executeOnClick = (isExpanded) => {
+        console.log(isExpanded);
+    }
     return (
         <MDBCarouselItem itemId={id}>
             <MDBCard narrow style={{marginBottom: '20px'}}>
                 <MDBView cascade>
                     <MDBCardImage
-                    hover
-                    overlay='white-slight'
-                    className='card-img-top'
-                    src={`img/${img}`}
-                    alt={name}
+                        hover
+                        overlay='white-slight'
+                        className='card-img-top'
+                        src={`img/${img}`}
+                        alt={name}
                     />
                 </MDBView>
 
                 <MDBCardBody>
-                    <h5 className='pink-text'>
-                    <MDBIcon icon='utensils' /> {sector}
+                    <h5 className={(sector === 'Financial') ? 'blue-text' : 'red-text'}>
+                        <MDBIcon icon={(sector === 'Financial') ? 'building': 'video'} /> {sector}
                     </h5>
 
-                    <MDBCardTitle className='font-weight-bold'>
-                    {name}
+                    <MDBCardTitle className='font-weight-bold' style={{marginBottom: '0'}}>
+                        {name}
                     </MDBCardTitle>
-                    
 
                     <MDBCardText>
-                    {desc}
+                        <em>Site Responsibilities:</em> {tools}
                     </MDBCardText>
-
-                    {/*<MDBBtn color='unique'>Button</MDBBtn>*/}
+                    
+                    <MDBCardText>
+                        <ShowMoreText
+                            lines={3}
+                            more='Show more'
+                            less='Show less'
+                            anchorClass=''
+                            onClick={executeOnClick}
+                            expanded={false}
+                            width={0}
+                        >
+                        {desc}        
+                        </ShowMoreText>
+                    </MDBCardText>
                 </MDBCardBody>
             </MDBCard>
         </MDBCarouselItem>

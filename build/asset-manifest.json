@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f524b0e7.chunk.css",
-    "main.js": "/static/js/main.a7c3acc4.chunk.js",
-    "main.js.map": "/static/js/main.a7c3acc4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b0502ee1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b0502ee1.js.map",
-    "static/css/2.1ebef6fa.chunk.css": "/static/css/2.1ebef6fa.chunk.css",
-    "static/js/2.3e7820f6.chunk.js": "/static/js/2.3e7820f6.chunk.js",
-    "static/js/2.3e7820f6.chunk.js.map": "/static/js/2.3e7820f6.chunk.js.map",
+    "main.css": "/static/css/main.adbd66e1.chunk.css",
+    "main.js": "/static/js/main.fd3be8ef.chunk.js",
+    "main.js.map": "/static/js/main.fd3be8ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7974d308.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7974d308.js.map",
+    "static/css/2.1a83e0b5.chunk.css": "/static/css/2.1a83e0b5.chunk.css",
+    "static/js/2.094eb570.chunk.js": "/static/js/2.094eb570.chunk.js",
+    "static/js/2.094eb570.chunk.js.map": "/static/js/2.094eb570.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1e4244c8199aa181c6b58794aac67cec.js": "/precache-manifest.1e4244c8199aa181c6b58794aac67cec.js",
+    "precache-manifest.e2db9bb62ccdec1f8f5bade0f7d7f192.js": "/precache-manifest.e2db9bb62ccdec1f8f5bade0f7d7f192.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.1ebef6fa.chunk.css.map": "/static/css/2.1ebef6fa.chunk.css.map",
-    "static/css/main.f524b0e7.chunk.css.map": "/static/css/main.f524b0e7.chunk.css.map",
-    "static/js/2.3e7820f6.chunk.js.LICENSE.txt": "/static/js/2.3e7820f6.chunk.js.LICENSE.txt",
+    "static/css/2.1a83e0b5.chunk.css.map": "/static/css/2.1a83e0b5.chunk.css.map",
+    "static/css/main.adbd66e1.chunk.css.map": "/static/css/main.adbd66e1.chunk.css.map",
+    "static/js/2.094eb570.chunk.js.LICENSE.txt": "/static/js/2.094eb570.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/subway110c.da579349.jpg",
     "static/media/mdb.css": "/static/media/default-skin.b257fa9c.svg",
-    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg"
+    "static/media/all.min.css": "/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0502ee1.js",
-    "static/css/2.1ebef6fa.chunk.css",
-    "static/js/2.3e7820f6.chunk.js",
-    "static/css/main.f524b0e7.chunk.css",
-    "static/js/main.a7c3acc4.chunk.js"
+    "static/js/runtime-main.7974d308.js",
+    "static/css/2.1a83e0b5.chunk.css",
+    "static/js/2.094eb570.chunk.js",
+    "static/css/main.adbd66e1.chunk.css",
+    "static/js/main.fd3be8ef.chunk.js"
   ]
 }

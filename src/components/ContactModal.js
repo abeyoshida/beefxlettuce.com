@@ -28,11 +28,11 @@ const ContactModal = (props) => {
                         </MDBCardText>
 
                         <MDBCol md='12' className='d-flex justify-content-center'>
-                        <a href='https://www.linkedin.com/in/abeyoshida/' target="_blank" className='px-2 fa-lg li-ic'>
+                        <a href='https://www.linkedin.com/in/abeyoshida/' target="_blank" rel="noopener noreferrer" className='px-2 fa-lg li-ic'>
                             <MDBIcon fab icon='linkedin-in' alt="linkedIn"></MDBIcon>
                         </a>
 
-                        <a href='https://github.com/abeyoshida/beefxlettuce.com' target="_blank" className='px-2 fa-lg tw-ic'>
+                        <a href='https://github.com/abeyoshida/beefxlettuce.com' target="_blank" rel="noopener noreferrer" className='px-2 fa-lg tw-ic'>
                             <MDBIcon fab icon='github' alt="GitHub"></MDBIcon>
                         </a>
 

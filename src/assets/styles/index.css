@@ -69,3 +69,19 @@ body, .bg {
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
+.carousel .carousel-control-next, 
+.carousel .carousel-control-prev {
+	height: 70%;
+	color: red !important;
+}
+.carousel .carousel-control:hover::before,
+.carousel .carousel-control-next-icon {
+    color: red !important;
+}
+
+.carousel .carousel-control:hover::after {
+    color: red !important;
+}
+.carousel .carousel-indcators li {
+	color: red !important;
+}
