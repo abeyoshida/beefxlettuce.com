@@ -5,6 +5,7 @@ import { MDBCollapse, MDBContainer, MDBIcon, MDBLink,
 import ContactModal from './ContactModal';
 import ResumeModal from './ResumeModal';
 import PortfolioModal from './PortfolioModal';
+import { isMobile } from 'react-device-detect';
 
 class Navbar extends Component {
     state = {
@@ -54,7 +55,13 @@ class Navbar extends Component {
                             </MDBNavItem>
                             <MDBNavItem active={(this.state.navbarOn === 'resume') ? true : false}>
                                 {/*<MDBLink to="#" onClick={this.toggle(2)}>Resume</MDBLink>*/}
-                                <MDBLink to="/resume" onClick={() => this.setNavbarOnState('resume')}>Resume</MDBLink>
+                                {
+                                    (isMobile) 
+                                    ?
+                                    <a className="nav-link" href="pdf/Abram_Yoshida_Resume_20200630.pdf" target="_blank" onClick={() => this.setNavbarOnState('resume')}>Resume</a>
+                                    :
+                                    <MDBLink to="/resume" onClick={() => this.setNavbarOnState('resume')}>Resume</MDBLink>
+                                }
                             </MDBNavItem>
                             <MDBNavItem active={(this.state.navbarOn === 'contact') ? true : false}>
                                 <MDBLink to="#" onClick={this.toggle(3)}>Contact</MDBLink>
