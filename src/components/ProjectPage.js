@@ -3,11 +3,10 @@ import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCarou
 import ShowMoreText from 'react-show-more-text';
 
 const Project = ({id, sector, name, img, tools, desc}) => {
-    
-    
     const executeOnClick = (isExpanded) => {
         console.log(isExpanded);
     }
+    
     return (
         <MDBCarouselItem itemId={id}>
             <MDBCard narrow style={{marginBottom: '20px'}}>

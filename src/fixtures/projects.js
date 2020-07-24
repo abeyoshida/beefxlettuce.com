@@ -1,5 +1,6 @@
 
-const initProjects = [
+const projectList = {
+  pastProjects: [
     {
       id: 1,
       sector: 'Financial',
@@ -81,5 +82,28 @@ const initProjects = [
       tools: 'Site design, HTML, CSS, Javascript',
       desc: 'The business website of actress, Ty-Ranne Grimstad.'
     }
-  ];
-  export default initProjects;
+  ],
+  currentProjects: [
+    {
+      id: 2,
+      sector: 'Personal Finance',
+      name: 'Expensify',
+      url: 'https://crs-expapp.herokuapp.com/',
+      img: 'site_expensify-2020-07-21.png',
+      tools: 'HTML, CSS, React, Redux, Webpack/Babel, Firebase',
+      desc: 'A React/Redux CRUD app built with Webpack/Babel bundler/compiler and Google\'s Firebase database.'
+    },
+    {
+      id: 1,
+      sector: 'Entertainment',
+      name: 'Ty-Ranne Grimstad',
+      url: 'http://ty-rannegrimstad.com/',
+      img: 'site_ty-rannegrimstad-2020-07-21.png',
+      tools: 'Site design, HTML, CSS, React, Material Design for Bootstrap with React',
+      desc: 'The current website of actress, Ty-Ranne Grimstad.'
+    }
+    
+  ]
+};
+ 
+  export default projectList;

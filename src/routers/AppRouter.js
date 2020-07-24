@@ -4,6 +4,7 @@ import { createBrowserHistory } from 'history';
 import ContactPage from '../components/ContactPage';
 import Navbar from '../components/Navbar';
 import NotFoundPage from '../components/NotFoundPage';
+import NewProjectsPage from '../components/NewProjectsPage';
 import ProjectsPage from '../components/ProjectsPage';
 import ResumePage from '../components/ResumePage';
 import WelcomePage from '../components/WelcomePage'
@@ -22,6 +23,7 @@ const AppRouter = () => (
                     exact={true} 
                 />
                 <Route path="/projects" component={ProjectsPage} />
+                <Route path="/newprojects" component={NewProjectsPage} />
                 <Route path="/resume" component={ResumePage}/>
                 <Route path="/contact" component={ContactPage} />
                 <Route component={NotFoundPage} />

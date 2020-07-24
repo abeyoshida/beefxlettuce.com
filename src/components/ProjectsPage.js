@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { MDBCarousel, MDBCarouselInner, MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Project from './ProjectPage';
-import initProjects from '../fixtures/projects';
+import projectsList from '../fixtures/projects';
 
 const ProjectsPage = () => {
-  const [projects] = useState(initProjects);
+  const [projects] = useState(projectsList.pastProjects);
   
   return (
     <>
