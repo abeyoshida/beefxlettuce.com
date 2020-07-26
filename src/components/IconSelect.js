@@ -17,7 +17,6 @@ const IconSelect = (props) => {
             icon = 'building';
             break;
     }
-    console.log('IconSelect icon: ', icon);
     return (
         <>
             <MDBIcon icon={icon} />
