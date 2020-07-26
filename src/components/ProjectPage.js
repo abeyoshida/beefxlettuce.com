@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCarouselItem, MDBView, MDBIcon } from 'mdbreact';
 import ShowMoreText from 'react-show-more-text';
+import IconSelect from './IconSelect';
 
 const Project = ({id, sector, name, img, tools, desc}) => {
     const executeOnClick = (isExpanded) => {
@@ -22,7 +23,7 @@ const Project = ({id, sector, name, img, tools, desc}) => {
 
                 <MDBCardBody>
                     <h5 className={(sector === 'Financial') ? 'blue-text' : 'red-text'}>
-                        <MDBIcon icon={(sector === 'Financial') ? 'building': 'video'} /> {sector}
+                        <IconSelect sector={sector}/> {sector}
                     </h5>
 
                     <MDBCardTitle className='font-weight-bold' style={{marginBottom: '0'}}>
