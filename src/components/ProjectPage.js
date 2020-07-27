@@ -32,8 +32,7 @@ const Project = ({id, sector, name, url, img, tools, desc}) => {
 
                     <MDBCardText>
                         <em>Site Responsibilities:</em> {tools}
-                        {url && <p>Website: <a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>
-                        }
+                        {url && <p>Website: <a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>}
                     </MDBCardText>
                     
                     <MDBCardText>
