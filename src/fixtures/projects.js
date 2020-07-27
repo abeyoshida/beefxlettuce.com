@@ -32,7 +32,7 @@ const projectList = {
       id: 4,
       sector: 'Financial',
       name: 'BearCorpCash.com',
-      url: 'https://treasurypartners.com/',
+      url: undefined, //'https://treasurypartners.com/',
       img: 'site_cmg_600w.jpg',
       tools: 'UX, HTML, XML, CSS, Javascript',
       desc: 'The Cash Management Group migrated to Bear Stearns from Oppenheimer in 2003 and quickly established itself as one of America\'s top financial advisors with over $15 billion in assets. To bring their business online I was engaged to build the Money Market Portal as an online vehicle to allow   their clients to managing overnight liquidity in existing portfolios.  Portal functionality included live pricing of approved money market funds, the ability to buy and sell from a pre-screened list of AAA money market funds, building filtered lists, trade status blotter, implementing hierarchical trading rules based on authenticated levels. My responsibilities included the portal site design, CSS, Javascript code base. The portal is a private client-only site and not open to the public.'
@@ -106,4 +106,4 @@ const projectList = {
   ]
 };
  
-  export default projectList;
+export default projectList;

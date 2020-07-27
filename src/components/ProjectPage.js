@@ -1,9 +1,9 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCarouselItem, MDBView, MDBIcon } from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCarouselItem, MDBView } from 'mdbreact';
 import ShowMoreText from 'react-show-more-text';
 import IconSelect from './IconSelect';
 
-const Project = ({id, sector, name, img, tools, desc}) => {
+const Project = ({id, sector, name, url, img, tools, desc}) => {
     const executeOnClick = (isExpanded) => {
         console.log(isExpanded);
     }
@@ -32,6 +32,8 @@ const Project = ({id, sector, name, img, tools, desc}) => {
 
                     <MDBCardText>
                         <em>Site Responsibilities:</em> {tools}
+                        {url && <p>Website: <a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>
+                        }
                     </MDBCardText>
                     
                     <MDBCardText>
