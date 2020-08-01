@@ -117,12 +117,12 @@ class Navbar extends Component {
                                 <MDBNavbarNav right>
                                     <MDBNavItem>
                                         <MDBLink to={{ pathname: "https://github.com/abeyoshida/beefxlettuce.com" }} target="_blank" rel="noopener noreferrer" className="waves-effect waves-light">
-                                            <MDBIcon fab size="lg" icon="github" />
+                                            <MDBIcon fab size="lg" icon="github" title="GitHub"/>
                                         </MDBLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBLink to={{ pathname: "https://www.linkedin.com/in/abeyoshida/" }} target="_blank" rel="noopener noreferrer" className="waves-effect waves-light">
-                                            <MDBIcon fab size="lg" icon="linkedin" />
+                                            <MDBIcon fab size="lg" icon="linkedin" title="linkedIn"/>
                                         </MDBLink>
                                     </MDBNavItem>
                                 </MDBNavbarNav>
