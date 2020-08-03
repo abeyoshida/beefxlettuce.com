@@ -1,10 +1,16 @@
-import React from 'react';
-import { MDBView, MDBMask, MDBContainer, MDBRow, MDBCol, MDBAnimation } from 'mdbreact';
+import React, { useState } from 'react';
+import { MDBView, MDBMask, MDBContainer, MDBRow, MDBCol, MDBAnimation, MDBIcon } from 'mdbreact';
+import CovidChartModalPage from './CovidChartModalPage';
 
 const WelcomePage = (props) => {
-    
+  const [modal14, setModal14] = useState(false);
+  const toggle = () => {
+    setModal14(() => !modal14);
+    console.log('toggle modal14: ', modal14);
+  };
+  
   return (
-        <MDBView>
+      <MDBView>
         
         <MDBMask className='white-text gradient' />
         <MDBContainer
@@ -19,7 +25,7 @@ const WelcomePage = (props) => {
                 </h1>
                 <hr className='hr-light' />
                 <h6 className='mb-4'>
-                    The safest city in the world.
+                    The safest city in the world. <button onClick={toggle} ><MDBIcon  icon="chart-line" /></button>
                 </h6>
               </MDBAnimation>
             </MDBCol>
@@ -31,7 +37,9 @@ const WelcomePage = (props) => {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
+        <CovidChartModalPage modal={modal14} toggle={toggle}/>
       </MDBView>
+      
     );
 };
 

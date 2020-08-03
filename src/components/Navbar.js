@@ -107,11 +107,11 @@ class Navbar extends Component {
                                                 }}>Resume</MDBLink>
                                         }
                                     </MDBNavItem>
-                                    <MDBNavItem active={(this.state.navbarOn === 'contact') ? true : false}>
+                                    {/*<MDBNavItem active={(this.state.navbarOn === 'contact') ? true : false}>
                                         <MDBLink 
                                             to="#" 
                                             onClick={this.toggle(3)}>Contact</MDBLink>
-                                    </MDBNavItem>
+                                    </MDBNavItem>*/}
                                     
                                 </MDBNavbarNav>
                                 <MDBNavbarNav right>
